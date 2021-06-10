@@ -1,0 +1,63 @@
+.add-project-container {
+    h1{
+        color: #ee4554;
+        font-weight: bold;
+    }
+    form {
+        input {
+            &::placeholder {
+                padding: 0 10px;
+            }
+        }
+        input[type="date"] {
+            &::-webkit-datetime-edit {
+                padding: 0;
+            }
+            &::-webkit-datetime-edit-fields-wrapper {
+                display: none;
+            }
+            &::-webkit-datetime-edit-text {
+                color: red;
+                padding: 0 0.3em;
+            }
+            &::-webkit-inner-spin-button {
+                display: none;
+            }
+            &::-webkit-calendar-picker-indicator {
+                // background-color: red;
+                // padding: .6rem;
+            }
+        }
+        select:first-child {
+            padding: 0 10px;
+        }
+        label {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    button.cancel,
+    button.save {
+        background: #ee4554;
+        color: #fff;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .mymap{
+        height: 400px;
+        width: 100%;
+    }
+    @media (min-width: 992px) {
+        form {
+            .form-control {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            label {
+                font-size: 1rem;
+                text-align: left;
+            }
+        }
+    }
+}

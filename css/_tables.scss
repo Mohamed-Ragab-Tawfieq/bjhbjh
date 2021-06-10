@@ -1,0 +1,47 @@
+.breadcrumb-container {
+    .add {
+        background: #ee4554;
+        color: #fff;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+}
+.table-container {
+    .dropdown-menu {
+        min-width: 4rem !important;
+    }
+    // table
+    table {
+        &::-webkit-scrollbar {
+            height: 10px;
+            background: #888;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: rgba(234, 27, 45, 1);
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            background: rgba(234, 27, 45, 0.8);
+        }
+
+        th {
+            font-weight: normal;
+            background: rgb(248, 248, 248);
+            vertical-align: top !important;
+        }
+
+        td:last-of-type {
+            i {
+                margin: auto 0.5rem;
+            }
+        }
+    }
+    // end of table
+    .pagination {
+        .disabled {
+            a {
+                background: #f2f2f2;
+            }
+        }
+    }
+}

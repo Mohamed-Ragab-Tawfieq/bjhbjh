@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>رؤية مصر 2030</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"/> -->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+        rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style_rtl.min.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <button class="navbar-toggler d-lg-none" id="menu-btn" type="button" data-toggle="collapse"
+                        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <a class="navbar-brand ml-3" href="index.html">رؤية مصر
+                        2030</a>
+                </div>
+                <div class="py-1">
+                    <a class="btn logout px-lg-5" href="#">خروج</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 side-menu-wrapper slide-out">
+                <div class="side-menu">
+                    <div class="admin py-2 text-center">
+                        <div class="overlay"></div>
+                        <div class="control">
+                            <div class="img-container mx-auto">
+                                <img src="images/statistics/Icon awesome-user-alt.png" alt="user" />
+                            </div>
+                            <b class="m-0">مرحبا Admin</b>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    الأدمن
+                                </a>
+                                <div class="dropdown-menu
+                                        dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">الملف
+                                        الشخصي</a>
+                                    <a class="dropdown-item" href="#">تسجيل
+                                        الخروج</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav mx-auto mt-3 px-3">
+                        <div id="accordion">
+                            <!-- accordion one -->
+                            <li>
+                                <div id="accordionOne" class="accordion">
+                                    <button class="nav-link btn btn-link" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <span>
+                                            <img src="images/statistics/Icon material-dashboard.svg" />
+                                            البرامج
+                                        </span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </button>
+
+                                    <ul id="collapseOne" class="collapse
+                                            list-unstyled px-5" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn
+                                                    btn-link">
+                                                <span>
+                                                    <img src="images/statistics/Icon material-dashboard.svg" />
+                                                    الاحصائيات
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn btn-link">
+                                                <span>
+                                                    <img src="images/statistics/Group 8475.svg" />
+                                                    الاهداف
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn btn-link">
+                                                <span>
+                                                    <img src="images/statistics/end.svg" /> البرامج
+                                                    التنموية
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end of accordion one -->
+                            <!-- accordion two -->
+                            <li>
+                                <div id="accordionTwo" class="accordion">
+                                    <button class="nav-link btn btn-link" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span>
+                                            <img src="images/statistics/Path 4156.svg" /> قياس الأداء
+                                        </span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </button>
+
+                                    <ul id="collapseTwo" class="collapse
+                                            list-unstyled px-5" aria-labelledby="headingTwo" data-parent="#accordion">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn btn-link">
+                                                <span>
+                                                    ☺<img src="images/statistics/Icon material-dashboard.svg" />
+                                                    مؤشرات قياس الاداء
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn btn-link">
+                                                <span>
+                                                    <img src="images/statistics/Group 8475.svg" />
+                                                    الجهات
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn
+                                                    btn-link">
+                                                <span><img src="images/statistics/end.svg" /> البرامج وحدات
+                                                    القياس
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end of accordion two -->
+                            <!-- accordion three -->
+                            <li>
+                                <div id="accordionThree" class="accordion">
+                                    <button class="nav-link btn btn-link" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span>
+                                            <img src="images/statistics/presentation.svg" />
+                                            مشروعات جارية أو تمت
+                                        </span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </button>
+
+                                    <ul id="collapseThree" class="collapse
+                                            list-unstyled px-5" aria-labelledby="headingThree"
+                                        data-parent="#accordion">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn btn-link">
+                                                <span>
+                                                    <img src="images/statistics/presentation.svg" />
+                                                    مشروعات جاري تنفيذها
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn btn-link">
+                                                <span>
+                                                    <img src="images/statistics/Path 4168.svg" />
+                                                    مشروعات تم تنفيذها
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link btn btn-link">
+                                                <span>
+                                                    <img src="images/statistics/newspaper.svg" />
+                                                    مقترحاتك
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end of accordion three -->
+                        </div>
+
+                        <li class="nav-item">
+                            <a href="tables.html" class="nav-link btn
+                                    btn-link active">
+                                <span><img src="images/statistics/end.svg" /> البرامج التنموية
+                            </a>
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span>
+                                    <img src="images/statistics/Path 4156.svg" />
+                                    مؤشرات قياس الاداء
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span><img src="images/statistics/hotel.svg" /> الجهات
+                            </a>
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span><img src="images/statistics/building.svg" /> المحافظات
+                            </a>
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span><img src="images/statistics/presentation.svg" /> مشروعات جاري
+                                    تنفيذها
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span>
+                                    <img src="images/statistics/Path 4168.svg" /> مشروعات تم
+                                    تنفيذها
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span><img src="images/statistics/newspaper.svg" /> مقترحاتك
+                            </a>
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span>
+                                    <img src="images/statistics/Icon metro-users.svg" />
+                                    المستخدمين
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn btn-link">
+                                <span>
+                                    <img src="images/statistics/Icon awesome-users.svg" />
+                                    المواطنون المشاركون
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9 details-grid-wrapper">
+                <div class="details-grid">
+                    <!-- breadcrumb -->
+                    <nav aria-label="breadcrumb" class="breadcrumb-container
+                            d-flex
+                            justify-content-between align-items-center">
+                        <div>
+                            <h1 class="text-secondary"><b>أضف مشروع</b></h1>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <h4><a href="#">الرئيسية</a></h4>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <h4><a href="#">المشروعات</a></h4>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <h4>اضف جديد</h4>
+                                </li>
+                            </ol>
+                        </div>
+                    </nav>
+                    <!-- end of breadcrumb -->
+
+                    <!-- details section -->
+                    <div class="add-project-container">
+                        <div class="card py-3 mt-4">
+                            <div class="card-header bg-white">
+                                <h1>اضف مشروع</h1>
+                            </div>
+                            <div class="card-body">
+                                <form class="text-center">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">كود الترتيب</label>
+                                                <div class="col-8">
+                                                    <input type="text" class="form-control" placeholder="كود الترتيب">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">وحدة القياس</label>
+                                                <div class="col-8">
+                                                    <select class="form-control" id="measure-unit">
+                                                        <option selected>مليون مواطن</option>
+                                                        <option>مصر الوطني</option>
+                                                        <option>البنميسمسن</option>
+                                                        <option>سنستاست</option>
+                                                        <option>يسنتيسني</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">القطاع</label>
+                                                <div class="col-8">
+                                                    <select class="form-control">
+                                                        <option selected>sector 1</option>
+                                                        <option>sector 2</option>
+                                                        <option>sector 3</option>
+                                                        <option>sector 4</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">اسم المشروع بالعربية</label>
+                                                <div class="col-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group row">
+                                                <label class="col-2 col-form-label">وصف المشروع بالعربية*</label>
+                                                <div class="col-10">
+                                                    <textarea class="form-control" rows="4"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group row">
+                                                <label class="col-2 col-form-label">اهمية المشروع
+                                                    بالعربية</label>
+                                                <div class="col-10">
+                                                    <textarea class="form-control" rows="4"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">الجهة المنفذة</label>
+                                                <div class="col-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">اختر المحافظة</label>
+                                                <div class="col-8">
+                                                    <input type="search" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">نسبة الانجاز</label>
+                                                <div class="col-8">
+                                                    <input type="number" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">نسبة الانجاز الفعلي</label>
+                                                <div class="col-8">
+                                                    <input type="number" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group row">
+                                                <label class="col-2 col-form-label">وصف نسبة الانجاز الفعلي</label>
+                                                <div class="col-10">
+                                                    <textarea class="form-control" rows="4"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group row">
+                                                <label class="col-2 col-form-label">نسبة الانجاز المستهدف</label>
+                                                <div class="col-10">
+                                                    <input type="number" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group row">
+                                                <label class="col-2 col-form-label">وصف نسبة الانجاز المستهدف</label>
+                                                <div class="col-10">
+                                                    <textarea class="form-control" rows="4"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">تاريخ البدء</label>
+                                                <div class="col-8">
+                                                    <input type="date" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">تاريخ الانتهاء</label>
+                                                <div class="col-8">
+                                                    <input type="date" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">تكلفة المشروع</label>
+                                                <div class="col-8">
+                                                    <input type="number" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div id="map" class="mymap my-3"></div>
+                                            <!-- <iframe width="100%" height="600" frameborder="0" scrolling="no"
+                                                marginheight="0" marginwidth="0"
+                                                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                            </iframe> -->
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">خط الطول</label>
+                                                <div class="col-8">
+                                                    <input type="text" id="long" class="form-control"
+                                                        onchange="initMap()">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">خط العرض</label>
+                                                <div class="col-8">
+                                                    <input type="text" id="lat" class="form-control"
+                                                        onchange="initMap()">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group row">
+                                                <label class="col-2 col-form-label">الوسوم بالعربية</label>
+                                                <div class="col-4">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="col-6 my-auto text-left px-0">
+                                                    <span class="text-muted">من فضلك استخدم الtab لاضافة اكثر من
+                                                        وسم</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group row">
+                                                <label class="col-4 col-form-label">التفعيل والاهمية</label>
+                                                <div class="col-8 d-flex justify-content-between align-items-center">
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label class="form-check-label text-muted"
+                                                            for="activeProject">مفعل</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label class="form-check-label text-muted"
+                                                            for="importantProject">عالي الاهمية</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="text-center">
+                                                <button class="btn save px-lg-4">حفظ</button>
+                                                <button class="btn cancel px-lg-4">الغاء</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of details section -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYNgQG78rbIUrqddn0v9c6raLUf6SXOP8&callback=myMap"></script>   -->
+    <script src="js/script.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYNgQG78rbIUrqddn0v9c6raLUf6SXOP8&callback=initMap&libraries=&v=weekly"
+        async></script>
+
+</body>
+
+</html>
